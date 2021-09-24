@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (5.0.1)
+  - URLNavigator (2.3.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - URLNavigator
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - URLNavigator
+
+SPEC CHECKSUMS:
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
+
+PODFILE CHECKSUM: 7f4c347c06d3d3e23a7008c2c7d79fa91fd82de9
+
+COCOAPODS: 1.10.2
