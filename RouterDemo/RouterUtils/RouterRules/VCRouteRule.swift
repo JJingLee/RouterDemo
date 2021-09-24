@@ -41,3 +41,16 @@ public class VCRouteRule : RouteRule {
         return VC
     }
 }
+
+public class VCWebRouteRule : RouteRule {
+    public static var pattern: URLPattern {
+        get {
+            return "https://kkday.com/<className>/<showType>"
+        }
+    }
+    public static var handler: URLOpenHandlerFactory {
+        get {
+            return VCRouteRule.handler
+        }
+    }
+}
