@@ -1,8 +1,10 @@
 PODS:
+  - DebugTool (0.1.2)
   - SnapKit (5.0.1)
   - URLNavigator (2.3.0)
 
 DEPENDENCIES:
+  - DebugTool (from `https://github.com/kkday-it/DebugTool-iOS.git`, tag `0.1.3-snapshot`)
   - SnapKit
   - URLNavigator
 
@@ -11,10 +13,21 @@ SPEC REPOS:
     - SnapKit
     - URLNavigator
 
+EXTERNAL SOURCES:
+  DebugTool:
+    :git: https://github.com/kkday-it/DebugTool-iOS.git
+    :tag: 0.1.3-snapshot
+
+CHECKOUT OPTIONS:
+  DebugTool:
+    :git: https://github.com/kkday-it/DebugTool-iOS.git
+    :tag: 0.1.3-snapshot
+
 SPEC CHECKSUMS:
+  DebugTool: 4f47be2f9344536290967a47a1c92f93709a61af
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
 
-PODFILE CHECKSUM: 7f4c347c06d3d3e23a7008c2c7d79fa91fd82de9
+PODFILE CHECKSUM: 9be96ae314420475baa353dd357f181e7799dbd1
 
 COCOAPODS: 1.10.2

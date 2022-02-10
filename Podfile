@@ -6,6 +6,7 @@ target 'RouterDemo' do
   use_frameworks!
 
   # Pods for RouterDemo
+  pod 'DebugTool', :git => 'https://github.com/kkday-it/DebugTool-iOS.git', :tag => '0.1.3-snapshot'
   pod 'URLNavigator'
   pod 'SnapKit'
   target 'RouterDemoTests' do
